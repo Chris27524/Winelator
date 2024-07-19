@@ -31,5 +31,7 @@ echo -e "\e[36m[+] Installing Termux-am\e[0m"
 pkg install termux-am -y &>/dev/null
 echo -e "\e[32m[✓] Termux-am Installed Successfully\e[0m"
 echo -e "\n"
+sleep 2
+echo -e "\e[36m[+] select one
 
 
