@@ -114,6 +114,8 @@ sleep 3
 clear
 pkg install chrome -y
 
+sleep 2
+echo -e "\e[36m[+] subscribe to littlebodybigfan188 on youtube!
 
 
 
