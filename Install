@@ -8,3 +8,14 @@ termux-setup-storage
 termux-change-repo
 sleep 2
 echo -e "\e[36m[+] extracting files
+clear
+pkg install wget -y
+pkg install git -y
+pkg install hashdeep -y
+clear
+sleep 2
+
+echo -e "\e[33m[i] Setting up storage permissions..\e[0m"
+yes | termux-setup-storage &>/dev/null
+sleep 2
+clear
