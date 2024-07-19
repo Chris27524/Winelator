@@ -20,6 +20,8 @@ sleep 2
 echo -e "\e[33m[i] Setting up storage permissions..\e[0m"
 yes | termux-setup-storage &>/dev/null
 sleep 2
+
+
 clear
 sleep 2
 echo -e "\e[36m[+] setting up android tools
@@ -34,6 +36,16 @@ pkg install termux-am -y &>/dev/null
 echo -e "\e[32m[✓] Termux-am Installed Successfully\e[0m"
 echo -e "\n"
 sleep 2
+echo -e "\e[36m[+] if you have installed this but it crashed clear the termux data
+sleep 2
 echo -e "\e[36m[+] select one
 
+INSTALL_WOW64=0
+
+echo "Select an option"
+echo "1) Install boxvidra with box86 build (6 June)"
+echo "2) Install boxvidra with wow64 build (Complete version)"
+echo ""
+echo -n "Selected number: "
+read i
 
