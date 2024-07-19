@@ -19,3 +19,10 @@ echo -e "\e[33m[i] Setting up storage permissions..\e[0m"
 yes | termux-setup-storage &>/dev/null
 sleep 2
 clear
+sleep 2
+echo -e "\e[36m[+] setting up android tools
+pkg install android-tools -y
+sleep 2
+echo -e "\e[36m[+] android tools succefully installed
+
+
